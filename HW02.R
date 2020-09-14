@@ -3,12 +3,9 @@
 # load packages
 library(tidyverse)
 
-# create variables x and y
-x <- c(1, 2, 4, 6, 3)
-y <- c(6, 2, 3, 1, 4)
+library(readxl)
 
-# plot x and y
-qplot(x, y)
+popcolleges <- read_excel("Pop-Univ.xlsx")
 
 # save plot in png format
 ggsave("plot.png", height = 3, width = 4)
