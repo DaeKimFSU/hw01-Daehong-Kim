@@ -17,5 +17,4 @@ gg <- ggplot(midwest, aes(x=area, y=poptotal)) +
        x="Area", 
        title="Scatterplot", 
        caption = "Source: midwest")
-
 plot(gg)
